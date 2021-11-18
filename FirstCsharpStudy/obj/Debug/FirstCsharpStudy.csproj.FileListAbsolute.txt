@@ -1,0 +1,7 @@
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\bin\Debug\FirstCsharpStudy.exe.config
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\bin\Debug\FirstCsharpStudy.exe
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\bin\Debug\FirstCsharpStudy.pdb
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\obj\Debug\FirstCsharpStudy.csprojAssemblyReference.cache
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\obj\Debug\FirstCsharpStudy.csproj.CoreCompileInputs.cache
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\obj\Debug\FirstCsharpStudy.exe
+C:\Users\wjdwl\Desktop\C#\comp1500-study\FirstCsharpStudy\obj\Debug\FirstCsharpStudy.pdb
