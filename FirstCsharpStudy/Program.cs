@@ -6,42 +6,41 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            //Type Conversion
-            char char1 = 'a';
+            int num1 = 0;
+            int num2 = 10;
 
-            int int1 = char1; //묵시적 변환, 아스키코드에 의해 대문자 65, 소문자 에이 97
-            Console.WriteLine("int1:" + int1);
+            int result1 = num1++ + num2;
 
-            long long1 = char1;//묵시적 변환, 97
-            Console.WriteLine("long1: " + long1);
+            Console.WriteLine("num1: "+num1);//1
+            Console.WriteLine("num2: "+ num2);//10
+            Console.WriteLine("result1: " + result1);//10
 
-            ulong ulong1 = char1;//97
-            Console.WriteLine("ulong1: " + ulong1);
+            num1 = 0;
+            num2 = 10;
 
-            float float1 = char1;//97
-            Console.WriteLine("float1: " + float1);
+            int result2 = ++num1 + num2++;
 
-            double double1 = char1;//97
-            Console.WriteLine("double1: " + double1);
+            Console.WriteLine("num1: " + num1);//1
+            Console.WriteLine("num2: " + num2);//11
+            Console.WriteLine("result2: " + result2);//11
 
-            long long2 = long.MaxValue;
-            int long2ToInt = (int)long2;//63~32 자리의 비트 영역이 날라가기 때문에 명시적 변환 필요
+            num1 = 0;
+            num2 = 10;
 
-            Console.WriteLine("long2: " + long2);
-            Console.WriteLine("long2ToInt: " + long2ToInt);
+            int result3 = num1-- + num1-- - --num2;
 
-            float float2 = 3.14159f;
-            int float2ToInt = (int)float2;//소수점 아래의 숫자 날라가기 때문에 명시적 변환 필요
+            Console.WriteLine("num1: " + num1);//-2
+            Console.WriteLine("num2: " + num2);//9
+            Console.WriteLine("result3: " + result3);//-10
 
-            Console.WriteLine("float2: " + float2);
-            Console.WriteLine("float2ToInt: " + float2ToInt);
+            num1 = 0;
+            num2 = 10;
 
-            int int2 = -1;
-            uint int2ToUInt = (uint)int2;
+            int result4 = num2++ * num1++ - --num2 + num1;
 
-            Console.WriteLine("int2: " + int2);
-            Console.WriteLine("int2ToUInt: " + int2ToUInt);
-
+            Console.WriteLine("num1: " + num1);//1
+            Console.WriteLine("num2: " + num2);//10
+            Console.WriteLine("result4: " + result4);//-9            
         }
     }
 }
