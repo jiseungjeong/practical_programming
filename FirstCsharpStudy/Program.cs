@@ -6,41 +6,22 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            int num1 = 0;
-            int num2 = 10;
+            int num1 = 1;
 
-            int result1 = num1++ + num2;
+            int result1 = num1 << 1;
 
-            Console.WriteLine("num1: "+num1);//1
-            Console.WriteLine("num2: "+ num2);//10
-            Console.WriteLine("result1: " + result1);//10
+            Console.WriteLine("result1: " + result1);
 
-            num1 = 0;
-            num2 = 10;
+            int result2 = result1 << 2;
 
-            int result2 = ++num1 + num2++;
+            Console.WriteLine("result2: " + result2);
 
-            Console.WriteLine("num1: " + num1);//1
-            Console.WriteLine("num2: " + num2);//11
-            Console.WriteLine("result2: " + result2);//11
+            int result3 = result2 >> 3;
 
-            num1 = 0;
-            num2 = 10;
+            Console.WriteLine("result3: " + result3);
 
-            int result3 = num1-- + num1-- - --num2;
-
-            Console.WriteLine("num1: " + num1);//-2
-            Console.WriteLine("num2: " + num2);//9
-            Console.WriteLine("result3: " + result3);//-10
-
-            num1 = 0;
-            num2 = 10;
-
-            int result4 = num2++ * num1++ - --num2 + num1;
-
-            Console.WriteLine("num1: " + num1);//1
-            Console.WriteLine("num2: " + num2);//10
-            Console.WriteLine("result4: " + result4);//-9            
+            //int result4 = result3 << 2.5f;
+            //int result5 = 2.1f << 2.5f; 비트 이동연산자에 우항으로 부동소수점 수는 사용불가능
         }
     }
 }
