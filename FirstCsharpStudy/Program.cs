@@ -6,19 +6,21 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            string studentName1 = "Kim Leon";
-            float winRate1 = 30.2351f;
+            Console.WriteLine("{0}", 3.14159265359);
+            Console.WriteLine("{0:f4}", 3.14159265359);
+            Console.WriteLine("{0:f3}", 3.14159265359);
+            Console.WriteLine("{0:f2}", 3.14159265359);
+            Console.WriteLine("{0:f1}", 3.14159265359);
 
-            string studentName2 = "Lulu";
-            float winRate2 = 70.11f;
+            Console.WriteLine("{0}", 10.1);
+            Console.WriteLine("{0:f2}", 10.1);
+            Console.WriteLine("{0:f3}", 10.1);
+            Console.WriteLine("{0:f4}", 10.1);
 
-            string studentName3 = "Blitzcrank";
-            float winRate3 = 98.284f;
-
-            Console.WriteLine("{0,10}{1,15}\n", "Name", "WinRate");
-            Console.WriteLine("{0,10}{1,15}", studentName1, winRate1);
-            Console.WriteLine("{0,10}{1,15}", studentName2, winRate2);
-            Console.WriteLine("{0,10}{1,15}", studentName3, winRate3);
+            Console.WriteLine("{0}", 200);
+            Console.WriteLine("{0:f1}", 200);
+            Console.WriteLine("{0:f2}", 200);
+            Console.WriteLine("{0:f3}", 200);
 
         }
     }
