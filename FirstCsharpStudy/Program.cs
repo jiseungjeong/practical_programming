@@ -13,7 +13,7 @@ namespace FirstCsharpStudy
             float winRate2 = 70.11f;
 
             Console.WriteLine("{0}     {1}\n", "Name", "WinRate");
-            Console.WriteLine("{0}     {1}", studentName1, winRate1);
+            Console.WriteLine("{0} {1}", studentName1, winRate1);
             Console.WriteLine("{0}     {1}", studentName2, winRate2);
 
         }
