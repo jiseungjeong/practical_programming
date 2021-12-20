@@ -6,15 +6,16 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            string name = "LuLu";
-            int id = 201900001;
+            string studentName1 = "Kim Leon";
+            float winRate1 = 30.2351f;
 
-            //방법 1
-            string message1 = string.Format("Student Name: {0} / Student ID: {1}", name, id);
-            Console.WriteLine(message1);
+            string studentName2 = "Lulu";
+            float winRate2 = 70.11f;
 
-            //방법 2
-            Console.WriteLine("Student Name: {0} / Student ID: {1}", name, id);
+            Console.WriteLine("{0}     {1}\n", "Name", "WinRate");
+            Console.WriteLine("{0}     {1}", studentName1, winRate1);
+            Console.WriteLine("{0}     {1}", studentName2, winRate2);
+
         }
     }
 }
