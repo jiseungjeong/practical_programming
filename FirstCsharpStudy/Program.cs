@@ -6,14 +6,16 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0}", 10);
-            Console.WriteLine("{0:x}", 10); //소문자
-            Console.WriteLine("{0:X}", 10); //대문자
-            Console.WriteLine("{0:x1}", 10);
-            Console.WriteLine("{0:x2}", 10);
-            Console.WriteLine("{0:x3}", 10);
-            Console.WriteLine("{0:x4}", 10);
+            string name = "Lulu";
+            int id = 201900001;
 
+            //방법1
+            string message1 = string.Format($"Student Name: {name} / Student ID: {id}");
+            Console.WriteLine(message1);
+
+            //방법2
+            Console.WriteLine($"Student Name: {name} / Student ID: {id}");
+            
         }
     }
 }
