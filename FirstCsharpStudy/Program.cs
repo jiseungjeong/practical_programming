@@ -6,9 +6,10 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = "LuLu";
+            int id = 201900001;
 
-            Console.WriteLine("\x48\x65\x6C\x6C\x6F\x20\x57\x6F\x72\x6C\x64\x21");
+            Console.WriteLine("Student Name: " + name + " / Student ID: " + id);
         }
     }
 }
