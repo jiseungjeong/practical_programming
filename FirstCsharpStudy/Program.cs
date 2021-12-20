@@ -15,10 +15,10 @@ namespace FirstCsharpStudy
             string studentName3 = "Blitzcrank";
             float winRate3 = 98.284f;
 
-            Console.WriteLine("{0}     {1}\n", "Name", "WinRate");
-            Console.WriteLine("{0} {1}", studentName1, winRate1);
-            Console.WriteLine("{0}     {1}", studentName2, winRate2);
-            Console.WriteLine("{0}     {1}", studentName3, winRate3);
+            Console.WriteLine("{0,10}{1,15}\n", "Name", "WinRate");
+            Console.WriteLine("{0,10}{1,15}", studentName1, winRate1);
+            Console.WriteLine("{0,10}{1,15}", studentName2, winRate2);
+            Console.WriteLine("{0,10}{1,15}", studentName3, winRate3);
 
         }
     }
