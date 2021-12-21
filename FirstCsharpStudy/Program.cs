@@ -6,16 +6,9 @@ namespace FirstCsharpStudy
     {
         static void Main(string[] args)
         {
-            string name = "Lulu";
-            int id = 201900001;
-
-            //방법1
-            string message1 = string.Format($"Student Name: {name} / Student ID: {id}");
-            Console.WriteLine(message1);
-
-            //방법2
-            Console.WriteLine($"Student Name: {name} / Student ID: {id}");
-            
+            Console.Write("Hello worl\x64!\n");
+            Console.Write(@"Hello worl\x64!\n");
+            Console.Write("Hello world\n");
         }
     }
 }
