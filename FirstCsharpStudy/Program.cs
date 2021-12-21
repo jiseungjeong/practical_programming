@@ -7,12 +7,16 @@ namespace FirstCsharpStudy
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the firtst number: ");
-            string num1 = Console.ReadLine();
+            string numStr1 = Console.ReadLine();
+            int num1 = int.Parse(numStr1);
 
             Console.WriteLine("Enter the second number: ");
-            string num2 = Console.ReadLine();
+            string numStr2 = Console.ReadLine();
+            int num2 = int.Parse(numStr2);
 
-            Console.WriteLine($"Num1: {num1}, Num2: {num2}");
+
+            int result = num1 + num2;
+            Console.WriteLine($"{num1} + {num2} = {result}");
 
         }
     }
